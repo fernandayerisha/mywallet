@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "282618807373",
+    "firebase_url": "https://reminderkuliah.firebaseio.com",
+    "project_id": "reminderkuliah",
+    "storage_bucket": "reminderkuliah.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282618807373:android:39888e4a9066eac7",
+        "android_client_info": {
+          "package_name": "com.example.rhp.remiderkuliah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282618807373-upa12vm8e4uegoagbsqjrujvcc7l7q8i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rhp.remiderkuliah",
+            "certificate_hash": "0b6e31f0d4c117f5fb7acc67e4dbf876049a7a42"
+          }
+        },
+        {
+          "client_id": "282618807373-uus655isn322u3v29lr8qn8dmonq817c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqEz8mvqavSUTzjU9XvIQOqZjHTXbpzZo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282618807373-uus655isn322u3v29lr8qn8dmonq817c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
