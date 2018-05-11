@@ -36,7 +36,7 @@ public class LoginActivity extends AppCompatActivity {
         firebaseAuth = FirebaseAuth.getInstance();
 
         if (firebaseAuth.getCurrentUser() != null) {
-            startActivity(new Intent(getApplicationContext(), PenjualanPlaceholder.class));
+            startActivity(new Intent(getApplicationContext(), MainActivity.class));
             finish();
         }
 
@@ -68,7 +68,7 @@ public class LoginActivity extends AppCompatActivity {
         textViewSignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                startActivity(new Intent(getApplicationContext(), RegisterActivity.class));
                 finish();
             }
         });
@@ -88,7 +88,7 @@ public class LoginActivity extends AppCompatActivity {
                 if (task.isSuccessful()) {
                     //start the profile activity
                     finish();
-                    startActivity(new Intent(getApplicationContext(), PenjualanPlaceholder.class));
+                    startActivity(new Intent(getApplicationContext(), MainActivity.class));
                 }
             }
         });
